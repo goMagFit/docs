@@ -56,12 +56,6 @@
       "group": "Pages",
       "pages": [
         "pages/home",
-        {
-          "group": "Nested Reference Pages",
-          "pages": [
-            "pages/schedule"
-          ]
-        },
         "pages/info",
         "pages/schedule",
         "pages/media",
