@@ -18,12 +18,12 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:hello@moregyms.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Owner Dashboard",
+    "url": "https://dashboard.moregyms.com/login"
   },
   "tabs": [
     {
@@ -85,7 +85,7 @@
   ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
+    "instagram": "https://github.com/mintlify",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
 }
