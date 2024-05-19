@@ -9,15 +9,61 @@ icon: 'calendar'
   src="https://mintlify-assets.b-cdn.net/bigbend.jpg"
 />
 
-## Image
+## Add a class
 
-### Using Markdown
+### Single Class
+
+To add a single class go to the specific day that you want the class to take place. Once you found the date click the `Add class` button. After you click `Add class` you will see a pop up with five feilds:
+
+<ResponseField name="Class type" type="text" required>
+Name of your project. Used for the global title.
+
+Example: `Weightlifting for beginners`
+
+</ResponseField>
+
+<ResponseField name="Trainer" type="option">
+Name of your project. Used for the global title.
+
+Example: `Arnold Schwarzenegger`
+
+</ResponseField>
+
+<ResponseField name="Max capicty" type="number">
+Name of your project. Used for the global title.
+
+Example: `20`
+
+</ResponseField>
+
+<ResponseField name="Time" type="time" required>
+Name of your project. Used for the global title.
+
+Example: `10:00 am`
+
+</ResponseField>
+
+<ResponseField name="Duration" type="option" required>
+Name of your project. Used for the global title.
+
+Example: `1 hour`
+
+</ResponseField>
+
+<ResponseField name="Reacurring class" type="option">
+Name of your project. Used for the global title.
+
+Example: `Monday, Tuesday, Friday`
+
+</ResponseField>
+
+
+## Remove a class
+
+### Single Class
 
 The [markdown syntax](https://www.markdownguide.org/basic-syntax/#images) lets you add images using the following code
 
-```md
-![title](/path/image.jpg)
-```
+### Reccuring Class
 
-Note that the image file size must be less than 5MB. Otherwise, we recommend hosting on a service like [Cloudinary](https://cloudinary.com/) or [S3](https://aws.amazon.com/s3/). You can then use that URL and embed.
-
+The [markdown syntax](https://www.markdownguide.org/basic-syntax/#images) lets you add images using the following code
