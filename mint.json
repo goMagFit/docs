@@ -5,7 +5,7 @@
     "dark": "/logo/moregyms_logo_dark.svg",
     "light": "/logo/moregyms_logo.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/moregyms_icon.svg",
   "colors": {
     "primary": "#141413",
     "light": "#f7f8f8",
