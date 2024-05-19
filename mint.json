@@ -25,6 +25,12 @@
     "name": "Owner Dashboard",
     "url": "https://dashboard.moregyms.com/login"
   },
+    "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
   "anchors": [
     {
       "name": "Documentation",
