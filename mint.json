@@ -25,12 +25,6 @@
     "name": "Owner Dashboard",
     "url": "https://dashboard.moregyms.com/login"
   },
-  "tabs": [
-    {
-      "name": "Growth Tips",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
       "name": "Get the app",
@@ -61,20 +55,6 @@
         "pages/trainers",
         "pages/store",
         "pages/settings"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
       ]
     }
   ],
