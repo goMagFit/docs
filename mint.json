@@ -25,9 +25,9 @@
     "name": "Owner Dashboard",
     "url": "https://dashboard.moregyms.com/login"
   },
-    "tabs": [
+  "tabs": [
     {
-      "name": "API Reference",
+      "name": "Growth Tips",
       "url": "api-reference"
     }
   ],
@@ -56,6 +56,12 @@
       "group": "Pages",
       "pages": [
         "pages/home",
+        {
+          "group": "Nested Reference Pages",
+          "pages": [
+            "pages/schedule"
+          ]
+        },
         "pages/info",
         "pages/schedule",
         "pages/media",
