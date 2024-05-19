@@ -33,7 +33,7 @@
   ],
   "anchors": [
     {
-      "name": "Download the app",
+      "name": "Get the app",
       "icon": "apple",
       "url": "https://www.moregyms.com/download"
     },
@@ -53,14 +53,15 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Pages",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "pages/home",
+        "pages/info",
+        "pages/schedule",
+        "pages/media",
+        "pages/trainers",
+        "pages/store",
+        "pages/settings"
       ]
     },
     {
