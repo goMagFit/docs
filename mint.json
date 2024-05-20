@@ -54,7 +54,6 @@
         "pages/media",
         "pages/trainers",
         "pages/store",
-        "pages/payments",
         "pages/settings"
       ]
     }
