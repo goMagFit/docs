@@ -4,56 +4,46 @@ description: 'Add image, video, and other HTML elements'
 icon: 'whistle'
 ---
 
-<img
-  style={{ borderRadius: '0.5rem' }}
-  src="https://mintlify-assets.b-cdn.net/bigbend.jpg"
-/>
+To add a trainer click the `Add Trainer` button. After you click `Add Trainer` you will see a pop up with the following feilds:
 
-## Image
+<ResponseField name="Trainer Photo" type="Upload" required>
+Photo of the trainer.
 
-### Using Markdown
+Example: `Ronnie_Coleman.png`
 
-The [markdown syntax](https://www.markdownguide.org/basic-syntax/#images) lets you add images using the following code
+</ResponseField>
 
-```md
-![title](/path/image.jpg)
-```
+<ResponseField name="First Name" type="text" required>
+First name of the trainer.
 
-Note that the image file size must be less than 5MB. Otherwise, we recommend hosting on a service like [Cloudinary](https://cloudinary.com/) or [S3](https://aws.amazon.com/s3/). You can then use that URL and embed.
+Example: `Ronnie`
 
-### Using Embeds
+</ResponseField>
 
-To get more customizability with images, you can also use [embeds](/writing-content/embed) to add images
+<ResponseField name="Last Name" type="text" required>
+Last name of the trainer.
 
-```html
-<img height="200" src="/path/image.jpg" />
-```
+Example: `Coleman`
 
-## Embeds and HTML elements
+</ResponseField>
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/4KzFe50RQkQ"
-  title="YouTube video player"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-  style={{ width: '100%', borderRadius: '0.5rem' }}
-></iframe>
+<ResponseField name="Email" type="email" required>
+Trainer email.
 
-<br />
+Example: `Ronnie.coleman22@moregyms.com`
 
-<Tip>
+</ResponseField>
 
-Mintlify supports [HTML tags in Markdown](https://www.markdownguide.org/basic-syntax/#html). This is helpful if you prefer HTML tags to Markdown syntax, and lets you create documentation with infinite flexibility.
+<ResponseField name="Phone" type="number" required>
+How long the class lasts.
 
-</Tip>
+Example: `1 hour`
 
-### iFrames
+</ResponseField>
 
-Loads another HTML page within the document. Most commonly used for embedding videos.
+<ResponseField name="Reacurring class" type="option">
+The days the class is available.
 
-```html
-<iframe src="https://www.youtube.com/embed/4KzFe50RQkQ"> </iframe>
-```
+Example: `Monday, Tuesday, Friday`
+
+</ResponseField>
