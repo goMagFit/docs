@@ -10,24 +10,58 @@ icon: 'shop'
 
 ## Connect to Stripe
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+MoreGyms partners with Stripe to provide secure payment processing and direct payouts to your bank account. MoreGyms never holds on to your funds.
 
 <Card
   title="How Stripe Connect Works"
   icon="stripe-s"
   href="https://stripe.com/connect"
 >
-  MoreGyms partners with Stripe to provide secure payment processing and payouts.
+ Stripe is fast, secure and simple to use.
 </Card>
 
 ## Store Items
-MoreGyms partners with Stripe to provide secure payment processing and payouts.
-#### Add
-MoreGyms partners with Stripe to provide secure payment processing and payouts.
+Store items are anything that you can sell and fufill directly from your gyms physical location. Store items examples: `Protein Bars`, `Energy Drinks`, `T-Shirts`, `Finger Tape`, etc.
 
-MoreGyms partners with Stripe to provide secure payment processing and payouts.
+#### Add
+To add an item click on the grey `Add Item` button.
+
+Once the pop-up opens, add the following information:
+
+<ResponseField name="Item Name" type="text" required>
+The name that will be displayed on your store.
+
+Example: `Celcius`
+
+</ResponseField>
+
+<ResponseField name="Item Price" type="number" required>
+The price that will be charged to your customers.
+
+Example: `4.50`
+
+</ResponseField>
+
+<ResponseField name="Item Desciption" type="text" required>
+The description of the item.
+
+Example: `Energy drink`
+
+</ResponseField>
+
+<ResponseField name="Item Image" type="upload" required>
+A image file of the item.
+
+Example: `celcius_image.png`
+
+</ResponseField>
+
 #### Edit
-MoreGyms partners with Stripe to provide secure payment processing and payouts.
+
+To edit a store item click the<Icon icon="bars"/>under neath the `Add to Cart` button. 
+
+After you edit the item information click `Save Changes`
+
 
 #### Delete
 
