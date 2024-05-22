@@ -28,7 +28,7 @@
   "anchors": [
     {
       "name": "Get the app",
-      "icon": "apple",
+      "icon": "mobile-button",
       "url": "https://www.moregyms.com/download"
     },
     {
