@@ -27,8 +27,13 @@
   },
   "anchors": [
     {
-      "name": "Get the app",
-      "icon": "mobile-button",
+      "name": "iOS app",
+      "icon": "apple",
+      "url": "https://www.moregyms.com/download"
+    },
+    {
+      "name": "Android app",
+      "icon": "google-play",
       "url": "https://www.moregyms.com/download"
     },
     {
