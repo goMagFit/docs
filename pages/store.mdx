@@ -5,12 +5,12 @@ icon: 'store'
 ---
 
 <Note>
-  MoreGyms takes a 5% fee + the normal processing fees on all transactions. For full pricing details please refer to our [pricing page](https://www.moregyms.com/pricing).
+  MoreGyms takes a 2% fee + the normal processing fees on all transactions. For full pricing details please refer to our [pricing page](https://www.moregyms.com/pricing).
 </Note>
 
 ## Connect to Stripe
 
-MoreGyms partners with Stripe to provide secure payment processing and direct payouts to your bank account. MoreGyms never holds on to your funds.
+MoreGyms utilizes Stripe to provide secure payment processing and direct payouts to your bank account. MoreGyms never holds onto your funds.
 
 <Card
   title="How Stripe Connect Works"
@@ -21,10 +21,10 @@ MoreGyms partners with Stripe to provide secure payment processing and direct pa
 </Card>
 
 ## Store Items
-Store items are anything that you can sell and fufill directly from your gyms physical location. Store items examples: `Protein Bars`, `Energy Drinks`, `T-Shirts`, `Finger Tape`, etc.
+Store items are anything that you can sell and fufill directly from your gym's physical location. Store items examples: `Protein Bars`, `Energy Drinks`, `T-Shirts`, `Finger Tape`, etc.
 
 #### Add
-To add an item click on the grey `Add Item` button.
+To add an item, click on the grey `Add Item` button.
 
 Once the pop-up opens, add the following information:
 
@@ -50,7 +50,7 @@ Example: `Energy drink`
 </ResponseField>
 
 <ResponseField name="Item Image" type="upload" required>
-A image file of the item.
+An image file of the item.
 
 Example: `celcius_image.png`
 
@@ -58,7 +58,7 @@ Example: `celcius_image.png`
 
 #### Edit
 
-To edit a store item click the<Icon icon="bars"/>under the `Add to Cart` button. 
+To edit a store item click the `three lines` under the `Add to Cart` button. 
 
 After you edit the item information click `Save Changes`
 
@@ -66,13 +66,13 @@ After you edit the item information click `Save Changes`
 #### Delete
 To delete a store item click the<Icon icon="bars"/>under neath the `Add to Cart` button. 
 
-If you are sure that you want to remove that item from your shop click `Remove Item`
+If you are sure that you want to remove that item, from your shop, click `Remove Item`
 
 ## Memberships
 Memberships are essentially passes that give customers access to your facility. With adding different membership types, future customers can buy access to your facility before they walk through your door.
 
 #### Types
-For memberships, we offer different types so you can satisfy all future customer needs. If you would like to offer a membership on your store, all you need to do is add your rate and click the toggle to make it live.
+For memberships, we offer different types that way you can satisfy all customer needs. If you would like to offer a membership on your store, all you need to do is add your rate and click the toggle to make it live.
 
 | Type   | How to turn on          | Result                 |
 | ----------- | ------------------------ | ---------------------- |
@@ -83,53 +83,53 @@ For memberships, we offer different types so you can satisfy all future customer
 | Annual  | Add rate and click the toggle    | Customers will be able to purchase access to your gym for 365 days   |
 
 #### Add
-To add a membership, you need to go to your [Payments Page](https://dashboard.moregyms.com/settings#payment-settings) in your dashboard. Once you are there, simply add the rate for the membership type and then click the toggle button. If the toggle button says `Activated`, and you click the `Save` button, your newly added membership will be live for customers to purchase within your store.
+To add a membership, you need to go to your [Payments Page](https://dashboard.moregyms.com/settings#payment-settings) in your dashboard. Once you are there, add the rate for the membership type and then click the toggle button. If the toggle button says `Activated`, and you click the `Save` button, your newly added membership will be live for customers to purchase within your store.
 
 #### Turn on & off memberships
 ##### Turn on
-To turn on a membership, you need to go to your [Payments Page](https://dashboard.moregyms.com/settings#payment-settings) in your dashboard. Once you are there simply add the rate for the membership type and then click the toggle button. If the toggle button saves `Activated` and you clicked the `Save` button, your newly added membership will be live for customers to purchase within your store.
+To turn on a membership, you need to go to your [Payments Page](https://dashboard.moregyms.com/settings#payment-settings) in your dashboard. Once you are there, add the rate for the membership type and then click the toggle button. If the toggle button says `Activated` and you click the `Save` button, your newly added membership will be live for customers to purchase within your store.
 
 ##### Turn off
 To turn off a membership, you need to go to your [Payments Page](https://dashboard.moregyms.com/settings#payment-settings) in your dashboard. Go to the membership that you would like to turn off. If the toggle button saves `Activated` click on it so it says `Activate` then click the `Save` button. Now that specific membership will not be able to be purchased within your store.
 ## Create a checkout session
-Creating a checkout session is Stripes way of making a personal and secure checkout for your customer, making is easy for you to recieve payments directly to your bank account. 
+Creating a checkout session is Stripes' way of making a personal and secure checkout for your customer. This way makes it easy for you to receive payments directly to your bank account. 
 
-For MoreGyms there are three ways that you can create a checkout session on: `Your dashboard`, `MoreGyms.com`, or `the MoreGyms app`.
+For MoreGyms, there are three ways that you can create a checkout session: `Your dashboard`, `MoreGyms.com`, or `the MoreGyms app`.
 
 #### Checkout session on your dashboard
-If a customer doesn't want to go on MoreGyms.com or download the MoreGyms mobile app, you can create a cart from them directly within your dashboard. 
+If a customer doesn't want to go on MoreGyms.com or download the MoreGyms mobile app, you can create a cart for them directly within your dashboard. 
 
 In order to create a checkout session, you need make sure that you have your [items](/#store-items) and [memberships](/#memberships) added correctly.
 
-Once your [items](/#store-items) and [memberships](/#memberships) added correctly, you can add the items and memberships to your cart by clicking the `Add to Cart` button located next to each item and membership.
+Once your [items](/#store-items) and [memberships](/#memberships) are added correctly, you can add the items and memberships to your cart by clicking the `Add to Cart` button located next to each item and membership.
 
-After you have added the desired products, click on the `Cart` button on the top right of the [Store page](https://dashboard.moregyms.com/store) in the your [owner dashboard](https://dashboard.moregyms.com/store). By clicking the `Cart` button, it will open a pop-up of your cart with two buttons: `Close` and `Checkout`. To close the cart and continue shopping click `Close`. To proceed to checkout click `Checkout`.
+After you have added the desired products, click on the `Cart` button on the top right of the [Store page](https://dashboard.moregyms.com/store), in your [owner dashboard](https://dashboard.moregyms.com/store). By clicking the `Cart` button, it will open a pop-up of your cart with two buttons: `Close` and `Checkout`. To close the cart and continue shopping click `Close`. To proceed to checkout click `Checkout`.
 
-Clicking `Checkout` will generate a QR code that is scannable from any device with a working camera and internet connection. Once you scan the QR code you will be redirected to a secure Stripe Checkout Page. On this page, the user can input their credit card information to complete the transaction.
+Clicking `Checkout` will generate a QR code that is scannable from any device with a working camera and internet connection. Once you scan the QR code, you will be redirected to a secure Stripe checkout page. On this page, the user inputs their payment information to complete the transaction.
 
-Upon completion, you will see the reflected amount directly in your Stripe Connect account. For more questions regarding checkout sessions from your dashboard please reach out to us at hello@moregyms.com.
+Upon completion, you will see the reflected amount directly in your Stripe Connect account. If you have questions regarding checkout sessions please reach out to us at hello@moregyms.com.
 #### Checkout session on MoreGyms.com
-If you have a customer who is trying to purchase items or membership from your store but doesn't want to download the app, they can directly purchase items from your page store.
+If you have a customer who is trying to purchase items or membership from your store, but doesn't want to download the app, they can directly purchase items from your web profile.
 
-Once on your store page, customers can browse your products and add them to their cart. For customers to add items to their cart they must have a free MoreGyms account.
+Once on your store page, customers can browse your products and add them to their cart. For customers to add items to their cart, they must have a free MoreGyms account.
 
-After the user is done with adding to their cart, they need to click the `Cart` button located at the top right of your store page.
+After the user is done with adding items to their cart, they need to click the `Cart` button located at the top right of your store page.
 
-Within the cart, the user will be able to see the items they added. To proceed with the purchase the user must click `Continue to Checkout`. Once the user clicks `Continue to Checkout`, they will be redirected to a secure and slick Stripe checkout page.
+Within the cart, the user will be able to see the items they added. To proceed with the purchase the user must click `Continue to Checkout`. Once the user clicks `Continue to Checkout`, they will be redirected to a secure Stripe checkout page.
 
-On the checkout page, the user will be able to pay with `Apple Pay`, `Google Pay`, `Debit`, or `Credit`. Once all the proper information is collected and the payment is processed successfully, the user will be redirected to `https://moregyms.com/success?Success-ID`
+On the checkout page, the user will be able to pay with `Apple Pay`, `Google Pay`, `Debit`, or `Credit`. Once all the proper information is collected, and the payment is processed successfully, the user will be redirected to `https://moregyms.com/success?Success-ID`
 
 #### Checkout session on the MoreGyms mobile app
 The most efficient way for customers to purchase your store items is on the [MoreGyms app](https://moregyms.com/download). 
 
-To access your store, users can search your gym name and click on your page. Once on your page, users need to click the `Gym Store` floating button. By clicking the `Gym Store` button the user will be navigated to your store.
+To access your store, users can search for your gym and click on your page. Once on your page, users need to click the `Gym Store` floating button. By clicking the `Gym Store` button the user will be navigated to your store.
 
 On your store, users can add items to their cart or directly purchase items with a `Buy Now` button. Above the `Buy Now` button is a `Add to Cart` button that adds items to the cart.
 
-To view the cart, users need to click the `Cart` button on the upper right-hand of the screen. Once on the cart page, users will see all their cart items, along with a `Continue to Checkout` button.
+To view the cart, users need to click the `Cart` button on the upper right-hand of the screen. Once on the cart page, users will see all their cart items along with a `Continue to Checkout` button.
 
 ## Successful Payments
-There are two ways that you can check successful payments within your [MoreGyms Dashboard](https://dashboard.moregyms.com/store#payments):
+There are two ways that you can check successful payments from your [MoreGyms Dashboard](https://dashboard.moregyms.com/store#payments):
 
 | Where   | Benefit          |
 | ----------- | ------------------------ |
